@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_transaction">Nouvelle transaction</string>
+    <string name="app_name">PocketBrain</string>
+    <string name="generate_report">Générer le rapport</string>
+    <string name="nav_charts">Graphiques</string>
+    <string name="nav_dashboard">Tableau</string>
+    <string name="nav_history">Historique</string>
+    <string name="nav_reports">Rapports</string>
+    <string name="nav_settings">Réglages</string>
+    <string name="pocket_daily">Vie quotidienne</string>
+    <string name="pocket_fun">Plaisir</string>
+    <string name="pocket_investment">Investissement</string>
+    <string name="pocket_savings">Épargne</string>
+    <string name="report_generated">Rapport généré!</string>
+    <style name="Theme.PocketBrain" parent="Theme.Material3.DayNight.NoActionBar"/>
+</resources>

@@ -1,0 +1,383 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pocketbrain"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:4:5-77
+11-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:4:22-74
+12    <uses-permission
+12-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:5:5-6:38
+13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+13-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:5:22-78
+14        android:maxSdkVersion="28" />
+14-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:6:9-35
+15    <uses-permission
+15-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:7:5-8:38
+16        android:name="android.permission.READ_EXTERNAL_STORAGE"
+16-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:7:22-77
+17        android:maxSdkVersion="32" />
+17-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:8:9-35
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+18-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:5-79
+19-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:22-76
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+20-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:22-78
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+21-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:22-74
+22
+23    <permission
+23-->[androidx.core:core:1.13.1] /home/maverick/.gradle/caches/transforms-4/73bd3eaaec4e8a9cc2a4284d57cd731b/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+24        android:name="com.pocketbrain.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.13.1] /home/maverick/.gradle/caches/transforms-4/73bd3eaaec4e8a9cc2a4284d57cd731b/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.13.1] /home/maverick/.gradle/caches/transforms-4/73bd3eaaec4e8a9cc2a4284d57cd731b/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.pocketbrain.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.13.1] /home/maverick/.gradle/caches/transforms-4/73bd3eaaec4e8a9cc2a4284d57cd731b/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.13.1] /home/maverick/.gradle/caches/transforms-4/73bd3eaaec4e8a9cc2a4284d57cd731b/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:10:5-40:19
+30        android:name="com.pocketbrain.PocketBrainApp"
+30-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:11:9-39
+31        android:allowBackup="true"
+31-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:12:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.13.1] /home/maverick/.gradle/caches/transforms-4/73bd3eaaec4e8a9cc2a4284d57cd731b/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:13:9-43
+36        android:label="@string/app_name"
+36-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:14:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:15:9-54
+38        android:supportsRtl="true"
+38-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:16:9-35
+39        android:theme="@style/Theme.PocketBrain" >
+39-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:17:9-49
+40        <activity
+40-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:19:9-28:20
+41            android:name="com.pocketbrain.MainActivity"
+41-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:20:13-41
+42            android:exported="true"
+42-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:21:13-36
+43            android:theme="@style/Theme.PocketBrain"
+43-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:23:13-53
+44            android:windowSoftInputMode="adjustResize" >
+44-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:22:13-55
+45            <intent-filter>
+45-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:24:13-27:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:25:17-69
+46-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:25:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:26:17-77
+48-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:26:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+53            android:name="androidx.core.content.FileProvider"
+53-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:31:13-62
+54            android:authorities="com.pocketbrain.fileprovider"
+54-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:32:13-64
+55            android:exported="false"
+55-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:33:13-37
+56            android:grantUriPermissions="true" >
+56-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:34:13-47
+57            <meta-data
+57-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:35:13-37:54
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:36:17-67
+59                android:resource="@xml/file_paths" />
+59-->/home/maverick/Focket/app/src/main/AndroidManifest.xml:37:17-51
+60        </provider>
+61        <provider
+61-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
+63            android:authorities="com.pocketbrain.androidx-startup"
+63-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
+64            android:exported="false" >
+64-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
+65            <meta-data
+65-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+66                android:name="androidx.work.WorkManagerInitializer"
+66-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
+67                android:value="androidx.startup" />
+67-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.3.0] /home/maverick/.gradle/caches/transforms-4/a4beb23707d5eec0baf9627736ebbe54/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.3.0] /home/maverick/.gradle/caches/transforms-4/a4beb23707d5eec0baf9627736ebbe54/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.3.0] /home/maverick/.gradle/caches/transforms-4/a4beb23707d5eec0baf9627736ebbe54/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.8.3] /home/maverick/.gradle/caches/transforms-4/4cdbf918d1d6afbaed9ef29e3193430c/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.8.3] /home/maverick/.gradle/caches/transforms-4/4cdbf918d1d6afbaed9ef29e3193430c/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.8.3] /home/maverick/.gradle/caches/transforms-4/4cdbf918d1d6afbaed9ef29e3193430c/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+76                android:value="androidx.startup" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+77        </provider>
+78
+79        <service
+79-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+80            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+80-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+81            android:directBootAware="false"
+81-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+82            android:enabled="@bool/enable_system_alarm_service_default"
+82-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+83            android:exported="false" />
+83-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+84        <service
+84-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+85            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+85-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+86            android:directBootAware="false"
+86-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+87            android:enabled="@bool/enable_system_job_service_default"
+87-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+88            android:exported="true"
+88-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+89            android:permission="android.permission.BIND_JOB_SERVICE" />
+89-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+90        <service
+90-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+91            android:name="androidx.work.impl.foreground.SystemForegroundService"
+91-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+92            android:directBootAware="false"
+92-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+93            android:enabled="@bool/enable_system_foreground_service_default"
+93-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+94            android:exported="false" />
+94-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+95
+96        <receiver
+96-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+97            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+97-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+98            android:directBootAware="false"
+98-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+99            android:enabled="true"
+99-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+100            android:exported="false" />
+100-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+101        <receiver
+101-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+102            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+102-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+103            android:directBootAware="false"
+103-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+104            android:enabled="false"
+104-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+105            android:exported="false" >
+105-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+106            <intent-filter>
+106-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+107                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+107-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+107-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+108                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+108-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+108-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+109            </intent-filter>
+110        </receiver>
+111        <receiver
+111-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+112            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+112-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+113            android:directBootAware="false"
+113-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+114            android:enabled="false"
+114-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+115            android:exported="false" >
+115-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+116            <intent-filter>
+116-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+117                <action android:name="android.intent.action.BATTERY_OKAY" />
+117-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+117-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+118                <action android:name="android.intent.action.BATTERY_LOW" />
+118-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+118-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+119            </intent-filter>
+120        </receiver>
+121        <receiver
+121-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+122            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+122-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+123            android:directBootAware="false"
+123-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+124            android:enabled="false"
+124-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+125            android:exported="false" >
+125-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+126            <intent-filter>
+126-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+127                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+127-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+127-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+128                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+128-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+128-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+129            </intent-filter>
+130        </receiver>
+131        <receiver
+131-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+132            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+132-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+133            android:directBootAware="false"
+133-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+134            android:enabled="false"
+134-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+135            android:exported="false" >
+135-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+136            <intent-filter>
+136-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+137                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+137-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
+137-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
+138            </intent-filter>
+139        </receiver>
+140        <receiver
+140-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+141            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+141-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+142            android:directBootAware="false"
+142-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+143            android:enabled="false"
+143-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+144            android:exported="false" >
+144-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+145            <intent-filter>
+145-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+146                <action android:name="android.intent.action.BOOT_COMPLETED" />
+146-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:17-79
+146-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:25-76
+147                <action android:name="android.intent.action.TIME_SET" />
+147-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+147-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+148                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+148-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+148-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+149            </intent-filter>
+150        </receiver>
+151        <receiver
+151-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+152            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+152-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+153            android:directBootAware="false"
+153-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+154            android:enabled="@bool/enable_system_alarm_service_default"
+154-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+155            android:exported="false" >
+155-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+156            <intent-filter>
+156-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+157                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+157-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+157-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+158            </intent-filter>
+159        </receiver>
+160        <receiver
+160-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+161            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+161-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+162            android:directBootAware="false"
+162-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+163            android:enabled="true"
+163-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+164            android:exported="true"
+164-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+165            android:permission="android.permission.DUMP" >
+165-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+166            <intent-filter>
+166-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+167                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+167-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+167-->[androidx.work:work-runtime:2.9.0] /home/maverick/.gradle/caches/transforms-4/8067b87661537faded281853efe15b46/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+168            </intent-filter>
+169        </receiver>
+170
+171        <activity
+171-->[androidx.compose.ui:ui-test-manifest:1.6.8] /home/maverick/.gradle/caches/transforms-4/d9a161e10a6089f59aac356dd1d61d37/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:23:9-25:39
+172            android:name="androidx.activity.ComponentActivity"
+172-->[androidx.compose.ui:ui-test-manifest:1.6.8] /home/maverick/.gradle/caches/transforms-4/d9a161e10a6089f59aac356dd1d61d37/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:24:13-63
+173            android:exported="true" />
+173-->[androidx.compose.ui:ui-test-manifest:1.6.8] /home/maverick/.gradle/caches/transforms-4/d9a161e10a6089f59aac356dd1d61d37/transformed/jetified-ui-test-manifest-1.6.8/AndroidManifest.xml:25:13-36
+174        <activity
+174-->[androidx.compose.ui:ui-tooling-android:1.6.8] /home/maverick/.gradle/caches/transforms-4/a4a9a2b8e39911159a69922c55e3d699/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+175            android:name="androidx.compose.ui.tooling.PreviewActivity"
+175-->[androidx.compose.ui:ui-tooling-android:1.6.8] /home/maverick/.gradle/caches/transforms-4/a4a9a2b8e39911159a69922c55e3d699/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+176            android:exported="true" />
+176-->[androidx.compose.ui:ui-tooling-android:1.6.8] /home/maverick/.gradle/caches/transforms-4/a4a9a2b8e39911159a69922c55e3d699/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+177
+178        <service
+178-->[androidx.room:room-runtime:2.6.1] /home/maverick/.gradle/caches/transforms-4/16ad0ce349566c203246678a8ec3acf5/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+179            android:name="androidx.room.MultiInstanceInvalidationService"
+179-->[androidx.room:room-runtime:2.6.1] /home/maverick/.gradle/caches/transforms-4/16ad0ce349566c203246678a8ec3acf5/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+180            android:directBootAware="true"
+180-->[androidx.room:room-runtime:2.6.1] /home/maverick/.gradle/caches/transforms-4/16ad0ce349566c203246678a8ec3acf5/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+181            android:exported="false" />
+181-->[androidx.room:room-runtime:2.6.1] /home/maverick/.gradle/caches/transforms-4/16ad0ce349566c203246678a8ec3acf5/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+182
+183        <receiver
+183-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+184            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+185            android:directBootAware="false"
+185-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+186            android:enabled="true"
+186-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+187            android:exported="true"
+187-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+188            android:permission="android.permission.DUMP" >
+188-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+189            <intent-filter>
+189-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+190                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+191            </intent-filter>
+192            <intent-filter>
+192-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+193                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+193-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+193-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+194            </intent-filter>
+195            <intent-filter>
+195-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+196                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+196-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+196-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+197            </intent-filter>
+198            <intent-filter>
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+199                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/maverick/.gradle/caches/transforms-4/636d2cc3931249f736888ca88056c928/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+200            </intent-filter>
+201        </receiver>
+202    </application>
+203
+204</manifest>

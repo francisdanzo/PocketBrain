@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+string add_transaction
+string app_name
+string generate_report
+string nav_charts
+string nav_dashboard
+string nav_history
+string nav_reports
+string nav_settings
+string pocket_daily
+string pocket_fun
+string pocket_investment
+string pocket_savings
+string report_generated
+style Theme.PocketBrain
+xml file_paths
