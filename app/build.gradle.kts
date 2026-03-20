@@ -96,6 +96,7 @@ dependencies {
 
     // Accompanist
     implementation(libs.accompanist.permissions)
+    implementation(libs.accompanist.systemuicontroller)
 
     // Debug
     debugImplementation(libs.androidx.ui.tooling)
