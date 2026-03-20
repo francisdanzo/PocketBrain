@@ -86,7 +86,9 @@ object PdfReportGenerator {
         if (catMap.isNotEmpty()) {
             y = drawSection(canvas, "Dépenses par catégorie", y, pageWidth.toFloat())
             catMap.forEach { (cat, amt) ->
-                y = checkNewPage(pdf, canvas, y, page, pageWidth, pageHeight).also { canvas = it.second; page = it.first }
+                val pair = checkNewPage(pdf, canvas, y, page, pageWidth, pageHeight)
+                canvas = pair.second; page = pair.first
+                if (y > pageHeight - 60) y = 40f
                 y = drawKeyValue(canvas, cat, fmt.format(amt), y, Color.DKGRAY)
             }
             y += 8f

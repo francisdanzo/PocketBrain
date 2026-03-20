@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="ic_launcher_background">#6750A4</color>
     <string name="add_transaction">Nouvelle transaction</string>
     <string name="app_name">PocketBrain</string>
     <string name="generate_report">Générer le rapport</string>
@@ -13,5 +14,5 @@
     <string name="pocket_investment">Investissement</string>
     <string name="pocket_savings">Épargne</string>
     <string name="report_generated">Rapport généré!</string>
-    <style name="Theme.PocketBrain" parent="Theme.Material3.DayNight.NoActionBar"/>
+    <style name="Theme.PocketBrain" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>
